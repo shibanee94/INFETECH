@@ -19,17 +19,21 @@
 }
 .links {
     font-size: 2rem;
-    margin-right: 8rem;
+    margin-right: 5rem;
 }
 .newsletter {
     font-size: 2rem;
-    margin-right: 8rem;
+    margin-right: 5rem;
 }
 .contact {
     font-size: 2rem;
     margin-right: 20rem;
 }
 .para1 {
+    color: grey;
+    font-size: 1rem;
+}
+.para2 {
     color: grey;
     font-size: 1rem;
 }
@@ -110,4 +114,7 @@
 }
 .footer_para{
     margin-top: 1rem;
+}
+h1{
+    margin-left: 2rem;
 }

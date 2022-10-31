@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./header.css";
+import { Container } from "@material-ui/core";
 const header = () => {
   return (
     <>
@@ -16,8 +17,8 @@ const header = () => {
         <br />
         <div className="header-info">IT Solutions & Services</div>
         <br />
-        <div className="sub-info blueviolet">
-          <h1>Learn More</h1>
+        <div className="sub-info">
+          <h1 className="learn">Learn More</h1>
         </div>
         <div className="previous-arrow">
           <FontAwesomeIcon
@@ -104,13 +105,13 @@ const header = () => {
           <span className="IT-services">
             Dealing in all Professional IT Services
           </span>
-          <p>There are many variations of passages of available but majority have
+          <Container className="passage">There are many variations of passages of available but majority have
             <br /> 
             suffered
             alteration in some form, by humou or randomised words 
             <br />
             which don't look even slightly believable.
-          </p>
+          </Container>
         </span>{" "}
         <br />
         <div className="photos">

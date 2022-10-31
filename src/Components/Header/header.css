@@ -23,9 +23,8 @@
     padding-top: 3rem;
 }
 .sub-info{
-    color: white;
     font-size: 2rem;
-    border: 3px solid;
+    /* border: 3px solid; */
     margin-left: 37rem;
     width: 15rem;
     text-align: center;
@@ -47,7 +46,14 @@
 .content {
     height: 60vh;
 }
-
+.learn {
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2x solid;
+    width: 7rem;
+    height: 1.8rem;
+}
 .content-img {
     position: relative;
     border-radius: 3rem;
@@ -236,15 +242,22 @@ h1 {
     background-color: rgb(20, 7, 34);
 }
 .services{
+    position: relative;
     color: blueviolet;
     margin-left: 10rem;
-    margin-top: -10rem;
+    margin-top: -17rem;
 }
 .IT-services {
     margin-right: 50rem;
     font-size: 2rem;
     color: white;
 
+}
+.passage {
+    margin-top: -5rem;
+    position: relative;
+    text-align: end;
+    color: grey;
 }
 p{
     color: grey;
@@ -350,7 +363,4 @@ p{
 .text-1 {
     color: grey;
     
-}
-.code {
-    /* font-size: 2rem; */
 }

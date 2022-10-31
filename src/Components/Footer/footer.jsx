@@ -55,12 +55,13 @@ const footer = () => {
             <li className="link-list">Our Projects</li>
             <li className="link-list">Contacts</li>
           </div>
-          <div className="newsletter">
+          <Container className="newsletter">
             Newsletter
-            <h1>
+            <br />
+            <div className="para2">
               Signup for our latest news & articles. We won't give you spam
               mails.
-            </h1>
+            </div>
             <input className="placeholder" placeholder="Email Address"></input>
             <FontAwesomeIcon
               className="paper-plane"
@@ -68,7 +69,7 @@ const footer = () => {
               aria-hidden="true"
               size="0.3x"
             ></FontAwesomeIcon>
-          </div>
+          </Container>
           <Container className="contact">
             Contact
             <div>
