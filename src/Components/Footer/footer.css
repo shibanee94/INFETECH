@@ -113,6 +113,9 @@
     color: grey;
 }
 .footer_para{
+    position: relative;
+    margin-left: 40rem;
+    text-align:inherit;
     margin-top: 1rem;
 }
 h1{

@@ -1,5 +1,5 @@
 .app__subheader {
-    height: 80vh;
+    height: 125vh;
     width: 100%;
     background-color: white;
 }
@@ -58,3 +58,53 @@ h2{
 p{
     margin-left: 55rem;
 }
+.p-img1 {
+    height: 38vh;
+    width: 18%;
+    margin-left: 5rem;
+    margin-top: 0rem;
+    background: url("https://images.pexels.com/photos/3783416/pexels-photo-3783416.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.p-img2 {
+    height: 38vh;
+    width: 18%;
+    margin-left: 23rem;
+    margin-top: -18.2rem;
+    background: url("https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?auto=compress&cs=tinysrgb&w=600");
+
+}
+
+.p-img3 {
+    height: 38vh;
+    width: 18%;
+    margin-left: 41rem;
+    margin-top: -18.3rem;
+    background: url("https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.p-img4 {
+    height: 38vh;
+    width: 18%;
+    margin-left: 59rem;
+    margin-top: -18.3rem;
+    background: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic{
+    border:1px solid grey;
+    top: 13.8rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+.DI{
+ color: blueviolet;
+ font-size: 0.8rem;
+ margin-left: -1rem;
+}
+.ofc-name{
+    color: darkgrey;
+    font-size: 1.5rem;
+    border: solid transparent;
+    border-width: 5.5rem;
+
+}
+
