@@ -1,0 +1,123 @@
+.app__navbar{
+    width: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center;
+    padding: 1rem 2rem; */
+    background-color: white;
+}
+
+
+
+.app__navbar-links {
+    /* flex: 1; */
+    margin-right: 13rem;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+}
+
+.app__navbar-links li a {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: rgb(9, 0, 0);
+}
+/* .app__navbar-links li:hover {
+    color:black;
+} */
+
+
+ 
+
+/* .fa-Search{
+    display: 
+} */
+
+.org-name {
+    background-color: rgb(32, 10, 32);
+    font-size: 2rem;
+    color: white;
+}
+
+.desc {
+    margin-right: 45rem;
+    margin-top: 0rem;
+    color: black;
+}
+.search-icon {
+    margin-left: 60rem;
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    color: rgb(52, 49, 49);
+
+}
+.fa-ShoppingCart {
+    margin-left: 65rem;
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    color: rgb(52, 49, 49);
+}
+.contact-number-icon {
+    color: blueviolet;
+    font-size: 2rem;
+    margin-top: -0.5;
+}
+.contact-number {
+    margin-left: 70rem;
+    margin-top: -3.2rem;
+    font-size: 1rem;
+    color: black;
+}
+.mail-icon {
+    position: relative;
+    margin-top: -1rem;
+    color: blueviolet;
+    margin-left: 20rem;
+    font-size: 1rem;
+}
+
+.mail-id {
+    margin: 0rem;
+    color: black;
+    margin-top: -1.5rem;
+    margin-left: 20rem;
+    font-size: 1rem;
+}
+.contact-hours {
+    color: blueviolet;
+    margin-left: 55rem;
+    margin-top: -1.2rem;
+    font-size: 1rem;
+}
+.time {
+    color: black;
+    margin-left:1rem;
+    margin-top: -1.3rem;
+    font-size: 1rem;
+}
+.social-media {
+    margin-left: 70rem;
+    margin-top: 0rem;
+    
+}
+.social-media-icons{
+    display: flex;
+    color: black;
+    margin-top: -1rem;
+}
+
+.twitter {
+    margin-right: 1.5rem;
+}
+
+.facebook {
+    margin-right: 1.5rem;
+}
+
+.pinterest {
+    margin-right: 1.5rem;
+}
+
+.instagram {
+    margin-right: 1.5rem;
+}

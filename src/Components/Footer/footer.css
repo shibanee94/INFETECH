@@ -1,0 +1,113 @@
+.app__footer {
+    background-color: rgb(27, 6, 46);
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.listing {
+    padding-top: 5rem;
+    padding-left: 15rem;
+    color: white;
+    flex: 1;
+    display: flex;
+    list-style: none;
+}
+.org-name {
+    margin-right: 2.5rem;
+}
+.links {
+    font-size: 2rem;
+    margin-right: 8rem;
+}
+.newsletter {
+    font-size: 2rem;
+    margin-right: 8rem;
+}
+.contact {
+    font-size: 2rem;
+    margin-right: 20rem;
+}
+.para1 {
+    color: grey;
+    font-size: 1rem;
+}
+/* .Box {
+  background-color: rgb(27, 6, 46);
+} */
+.twitter {
+    color: grey;
+    font-size: 1rem;
+}
+.facebook {
+    color: grey;
+    font-size: 1rem;
+}
+.pinterest {
+    color: grey;
+    font-size: 1rem;
+}
+.instagram {
+    color: grey;
+    font-size: 1rem;
+}
+.link-list {
+    /* padding: 2rem; */
+    font-size: 1rem;
+    list-style: none;
+    color: grey;
+}
+
+.placeholder {
+    border-style:solid ;
+    border-width: 0.5rem;
+    border-color: white;
+}
+.paper-plane {
+    background-color: blueviolet;
+    position: absolute;
+    border-style: 1px solid blueviolet;
+    margin-top: 0.8rem;
+    color: white;
+    font-size: 2.2rem;
+}
+.ph-icon {
+    margin-top: 1.3rem;
+    color: blueviolet;
+    font-size: 1rem;
+}
+.ph-number{
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color: grey;
+}
+.email-icon {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+    color: blueviolet;
+}
+.email-id {
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color: grey;
+}
+.location-icon {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    font-size: 1rem;
+    color: blueviolet;
+}
+
+.location-address {
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color: grey;
+}
+.footer_para{
+    margin-top: 1rem;
+}

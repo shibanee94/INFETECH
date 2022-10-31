@@ -1,0 +1,356 @@
+.app__header {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background: url("https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-position: center center;
+}
+
+.org-desc {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+.header-info{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+.sub-info{
+    color: white;
+    font-size: 2rem;
+    border: 3px solid;
+    margin-left: 37rem;
+    width: 15rem;
+    text-align: center;
+}
+.next-arrow {
+    color: darkgray;
+    margin-left: 80rem;
+    font-size: 2rem;
+    margin-top: -0.2rem;
+}
+
+.previous-arrow {
+    color: darkgray;
+    margin-left: 80rem;
+    font-size: 2rem;
+    margin-top: -8rem;
+
+}
+.content {
+    height: 60vh;
+}
+
+.content-img {
+    position: relative;
+    border-radius: 3rem;
+    /* padding-inline-start: 5rem;  */
+    border-image: 10rem;
+    margin-left: 5rem;
+    height: 60vh;
+    width: 30%;
+    background-image: url("https://images.pexels.com/photos/3184429/pexels-photo-3184429.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.img1 {
+    /* position: relative; */
+    height: 30vh;
+    width: 20%;
+    margin-left: 32rem;
+    box-shadow: inset;
+    margin-top: -4.5rem;
+    background: url("https://images.pexels.com/photos/7374/startup-photos.jpg?auto=compress&cs=tinysrgb&w=600");
+}
+.img2 {
+    height: 30vh;
+    width: 20%;
+    margin-left: 15rem;
+    background: url("https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.img3 {
+    height: 30vh;
+    width: 20%;
+    margin-left: 40rem;
+    margin-top: -15rem;
+    background: url("https://media.istockphoto.com/photos/asian-businessman-paying-with-credit-card-for-his-online-purchases-picture-id1351046832?b=1&k=20&m=1351046832&s=612x612&w=0&h=ecFeuubrm9NmwdqBGru_ae0HE3cqV6FmsnHe-AAeGUY=");
+
+}
+
+.img4 {
+    height: 30vh;
+    width: 20%;
+    margin-left: 65rem;
+    margin-top: -15rem;
+    background: url("https://images.pexels.com/photos/3184632/pexels-photo-3184632.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+h4{
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    width: 12rem;
+    margin-left: 3.2rem;
+    position: relative;
+    top: 12rem;    
+}
+
+.white {
+    background-color: white;
+}
+.client-desc {
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    border: 3px solid black;
+    text-align: center;
+    width: 5rem;
+    margin-left: 9rem;
+    margin-top: -1rem;
+    fill:antiquewhite;
+
+}
+.about_company{
+    color: blueviolet;
+    font-size: 1.5rem;
+    margin-top: -35rem;
+    text-decoration: underline;
+    margin-left: 55rem;
+}
+h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+    .text {
+        color: black;
+        font-family: arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 1px;
+        font-size: 1.5rem;
+        margin-left: 52rem;
+        }
+
+        .company-desc {
+            color: gray;
+            font-size: 1rem;
+            margin-left: 52rem;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .dev {
+            font-size: 1.5rem;
+            color: black;
+            margin-left: 50rem;
+            margin-top: -12rem;
+        }
+        .dev-ico{
+            position:relative;
+            font-size: 2rem;
+            margin-left: 6rem;
+            margin-top: -12rem;
+            color: blueviolet;
+        }
+
+        .networking {
+            font-size: 1.5rem;
+            margin-left: 75rem;
+            margin-top: -2rem;
+            color: black;
+        }
+        .networking-ico {
+            position:relative;
+            font-size: 2rem;
+            margin-left: 1rem;
+            margin-top: -12rem;
+            color: blueviolet;
+        }
+
+        .content-list{
+            margin-left: 55rem;
+            margin-bottom: 5rem;
+
+        }
+
+        .fill-box{
+            width: 10rem;
+            color: white;
+            font-size: 3rem;
+            position: relative; 
+            display: inline-block;
+
+        }
+        .blueviolet {
+            background-color: blueviolet;
+        }
+
+        h3{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .listing{
+            /* content: '✔'; */
+            font-weight: bold;
+            list-style: none;
+        }
+        .ul.listing li::before {
+            content: '&#x2713';
+            border-color: blueviolet;
+        }
+
+    /* .ul.listing li{
+        content: '✔';
+        position: absolute;
+        left: 0; top: 2px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border: 1px solid #aaa;
+        background: blueviolet;
+        border-radius: 50%;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+        color: blueviolet;
+        list-style-type: circle;
+} */
+
+/* .company-services {
+    background-color: rgb(35, 4, 35);
+} */
+    
+.company-services{
+    width: auto;
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid rgb(35, 3, 35); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(20, 7, 34);
+}
+.services{
+    color: blueviolet;
+    margin-left: 10rem;
+    margin-top: -10rem;
+}
+.IT-services {
+    margin-right: 50rem;
+    font-size: 2rem;
+    color: white;
+
+}
+p{
+    color: grey;
+    margin-left: 35rem;
+    margin-top: -5rem;
+}
+.w {
+    color: white;
+}
+.first-img {
+    position: relative;
+    color: white;
+    border: solid white;
+    width: 10rem;
+    height: 12rem;
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: -60rem;
+    font-size: 1.5rem;
+
+}
+.second-img{
+    position: relative;
+    color: white;
+    border: solid white;
+    width: 10rem;
+    height: 12rem;
+    text-align: center;
+    margin-top: -12rem;
+    margin-left: -45rem;
+    font-size: 1.5rem;
+}
+.third-img {
+    position: relative;
+    color: white;
+    border: solid white;
+    width: 10rem;
+    height: 12rem;
+    text-align: center;
+    margin-top: -12.3rem;
+    margin-left: -30rem;
+    font-size: 1.5rem;
+}
+.fourth-img {
+    position: relative;
+    color: white;
+    border: solid white;
+    width: 10rem;
+    height: 12rem;
+    text-align: center;
+    margin-top: -12.5rem;
+    margin-left: -15rem;
+    font-size: 1.5rem;
+}
+.fifth-img {
+    position: relative;
+    color: white;
+    border: solid white;
+    width: 10rem;
+    height: 12rem;
+    text-align: center;
+    margin-top: -12rem;
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    /* margin-left: -2rem; */
+}
+.prod-desc{
+    margin-top: 2.5rem;
+}
+.prod-desc-1 {
+    margin-top: 2.5rem;
+}
+.prod-desc-2 {
+    margin-top: 2.5rem;
+}
+.prod-desc-3 {
+    margin-top: 2.5rem;
+}
+.prod-desc-4 {
+    margin-top: 2rem;
+}
+.sub-desc{
+    color: grey;
+    margin-left: 0rem;
+    font-size: 1.3rem;
+}
+.sub-desc-1 {
+    color: grey;
+    font-size: 1.3rem;
+}
+.sub-desc-2 {
+    color: grey;
+    font-size: 1.3rem;
+}
+.sub-desc-3 {
+    color:grey;
+    font-size: 1.3rem;
+}
+.sub-desc-4 {
+    color: grey;
+    font-size: 1.3rem;
+}
+.text-1 {
+    color: grey;
+    
+}
+.code {
+    /* font-size: 2rem; */
+}
